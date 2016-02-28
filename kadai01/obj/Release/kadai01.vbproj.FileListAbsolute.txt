@@ -1,0 +1,14 @@
+D:\Source\kadai_01\kadai01\kadai01\bin\Release\kadai01.exe.config
+D:\Source\kadai_01\kadai01\kadai01\bin\Release\kadai01.exe
+D:\Source\kadai_01\kadai01\kadai01\bin\Release\kadai01.pdb
+D:\Source\kadai_01\kadai01\kadai01\bin\Release\kadai01.xml
+D:\Source\kadai_01\kadai01\kadai01\obj\Release\kadai01.frmMain.resources
+D:\Source\kadai_01\kadai01\kadai01\obj\Release\kadai01.Resources.resources
+D:\Source\kadai_01\kadai01\kadai01\obj\Release\kadai01.vbproj.GenerateResource.Cache
+D:\Source\kadai_01\kadai01\kadai01\obj\Release\kadai01.exe
+D:\Source\kadai_01\kadai01\kadai01\obj\Release\kadai01.xml
+D:\Source\kadai_01\kadai01\kadai01\obj\Release\kadai01.pdb
+D:\Module\kadai01\Source\kadai01\kadai01\bin\Release\kadai01.exe.config
+D:\Module\kadai01\Source\kadai01\kadai01\obj\Release\kadai01.exe
+D:\Module\kadai01\Source\kadai01\kadai01\obj\Release\kadai01.xml
+D:\Module\kadai01\Source\kadai01\kadai01\obj\Release\kadai01.pdb

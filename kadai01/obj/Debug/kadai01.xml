@@ -1,0 +1,153 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+kadai01
+</name>
+</assembly>
+<members>
+<member name="T:kadai01.frmMain.enmCsvData">
+ <summary>
+ 列挙型 CSVデータ
+ </summary>
+</member>
+<member name="T:kadai01.frmMain.STC_CSV_DATA">
+ <summary>
+ 構造体 CSVデータ
+ </summary>
+</member>
+<member name="M:kadai01.frmMain.STC_CSV_DATA.SetInfo(System.String[])">
+ <summary>
+ 構造体設定
+ </summary>
+ <param name="strArgs"></param>
+</member>
+<member name="F:kadai01.frmMain.CON_DELEMITER">
+ <summary>
+ クラス定数
+ </summary>
+</member>
+<member name="M:kadai01.frmMain.Form1_Load(System.Object,System.EventArgs)">
+ <summary>
+ フォームロード
+ </summary>
+ <param name="sender">オブジェクト</param>
+ <param name="e">イベント</param>
+</member>
+<member name="M:kadai01.frmMain.CheckCommandLine">
+ <summary>
+ 引数設定判定
+ </summary>
+ <returns>True - OK, False - NG</returns>
+</member>
+<member name="M:kadai01.frmMain.ReadData(System.String,kadai01.frmMain.STC_CSV_DATA[]@)">
+ <summary>
+ CSVデータ読み込み
+ </summary>
+ <param name="strFileName">CSVファイル名</param>
+ <param name="stcCsvData">読み込みデータ</param>
+ <returns>True - 正常終了, False - 異常終了</returns>
+</member>
+<member name="M:kadai01.frmMain.CheckCsvData(System.String)">
+ <summary>
+ データ整合性判定
+ </summary>
+ <param name="strLine">読み込み行</param>
+ <returns>True - 判定OK, False - 判定NG</returns>
+</member>
+<member name="M:kadai01.frmMain.CheckDatatime(System.String)">
+ <summary>
+ 日付形式判定
+ </summary>
+ <param name="strChkValue">チェック文字列</param>
+ <returns>True - 日付型, False - 日付型以外</returns>
+</member>
+<member name="M:kadai01.frmMain.CheckDecimal(System.String)">
+ <summary>
+ 少数数値形式判定
+ </summary>
+ <param name="strChkValue">チェック文字列</param>
+ <returns>True - 少数数値型, False - 少数数値型以外</returns>
+</member>
+<member name="M:kadai01.frmMain.GetEffectDate(kadai01.frmMain.STC_CSV_DATA[]@,System.String[]@)">
+ <summary>
+ 有効日付取得
+ </summary>
+ <param name="stcCsvData">読み込みデータ</param>
+ <param name="strEffectDate">有効データ</param>
+</member>
+<member name="M:kadai01.frmMain.DateCompare(System.String[]@,System.String[]@,System.String[]@)">
+ <summary>
+ 日付比較
+ </summary>
+ <param name="strCompare1">比較元データ</param>
+ <param name="strCompare2">比較先データ</param>
+ <param name="strResult">比較結果</param>
+</member>
+<member name="M:kadai01.frmMain.SetDateData(System.String[]@)">
+ <summary>
+ 画面表示
+ </summary>
+ <param name="strDate">日付</param>
+</member>
+<member name="M:kadai01.frmMain.FormClose">
+ <summary>
+ 画面終了
+ </summary>
+</member>
+<member name="M:kadai01.Message.ShowMessage(System.String,System.String)">
+ <summary>
+ メッセージ表示
+ </summary>
+ <param name="strMsgID">メッセージID</param>
+ <param name="strAddMsg">追加メッセージ</param>
+</member>
+<member name="M:kadai01.Message.ShowErrMessage(System.Exception@)">
+ <summary>
+ エラーメッセージ表示
+ </summary>
+ <param name="objErr">エラー情報</param>
+</member>
+<member name="T:kadai01.My.Resources.Resources">
+<summary>
+  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</summary>
+</member>
+<member name="P:kadai01.My.Resources.Resources.ResourceManager">
+<summary>
+  このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+</summary>
+</member>
+<member name="P:kadai01.My.Resources.Resources.Culture">
+<summary>
+  厳密に型指定されたこのリソース クラスを使用して、すべての検索リソースに対し、
+  現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+</summary>
+</member>
+<member name="P:kadai01.My.Resources.Resources.MSGID1001">
+<summary>
+  引数が設定されていません に類似しているローカライズされた文字列を検索します。
+</summary>
+</member>
+<member name="P:kadai01.My.Resources.Resources.MSGID1002">
+<summary>
+  引数は2つ指定して下さい。 に類似しているローカライズされた文字列を検索します。
+</summary>
+</member>
+<member name="P:kadai01.My.Resources.Resources.MSGID1003">
+<summary>
+  引数1が設定されていません。 に類似しているローカライズされた文字列を検索します。
+</summary>
+</member>
+<member name="P:kadai01.My.Resources.Resources.MSGID1004">
+<summary>
+  引数2が設定されていません。 に類似しているローカライズされた文字列を検索します。
+</summary>
+</member>
+<member name="P:kadai01.My.Resources.Resources.MSGID2001">
+<summary>
+  CSVファイルが存在しません。 に類似しているローカライズされた文字列を検索します。
+</summary>
+</member>
+</members>
+</doc>

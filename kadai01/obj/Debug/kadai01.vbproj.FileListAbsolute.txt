@@ -1,0 +1,11 @@
+D:\Source\kadai_01\kadai01\kadai01\bin\Debug\kadai01.exe.config
+D:\Source\kadai_01\kadai01\kadai01\bin\Debug\kadai01.exe
+D:\Source\kadai_01\kadai01\kadai01\bin\Debug\kadai01.pdb
+D:\Source\kadai_01\kadai01\kadai01\bin\Debug\kadai01.xml
+D:\Source\kadai_01\kadai01\kadai01\obj\Debug\kadai01.vbprojResolveAssemblyReference.cache
+D:\Source\kadai_01\kadai01\kadai01\obj\Debug\kadai01.vbproj.GenerateResource.Cache
+D:\Source\kadai_01\kadai01\kadai01\obj\Debug\kadai01.exe
+D:\Source\kadai_01\kadai01\kadai01\obj\Debug\kadai01.xml
+D:\Source\kadai_01\kadai01\kadai01\obj\Debug\kadai01.pdb
+D:\Source\kadai_01\kadai01\kadai01\obj\Debug\kadai01.Resources.resources
+D:\Source\kadai_01\kadai01\kadai01\obj\Debug\kadai01.frmMain.resources
